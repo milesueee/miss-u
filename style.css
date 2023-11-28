@@ -16,12 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-.glow-point {
-    position: absolute;
-    box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb-2));
-    pointer-events: none;
-    animation: colorToggle 5s infinite alternate;
-}
+
 
 .star {
     position: absolute;
@@ -82,11 +77,4 @@ body {
         opacity: 0;
     }
 }
-@keyframes glow-point {
-    0% {
-        box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb-1));
-    }
-    100% {
-        box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb-2));
-    }
-}
+

@@ -164,6 +164,15 @@ void main(){
   //Grape
   col += glow * vec3(0.5, 0.2, 0.7);
   
+    //Green
+  //col += glow * vec3(0.1, 1.0, 0.1);
+  
+  //Light Blue
+  //col += glow * vec3(0.53, 0.81, 0.98);
+
+
+  
+  
   //Get second segment
   dist = getSegment(t, pos, 3.4, scale);
   glow = getGlow(dist, radius, intensity);
