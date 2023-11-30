@@ -196,7 +196,7 @@ void main(){
 }
 `;
 
-//************** Utility functions **************
+//WebGL Utility Functions
 
 window.addEventListener('resize', onWindowResize, false);
 

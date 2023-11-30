@@ -14,7 +14,7 @@ const config = {
     minimumDistanceBetweenStars: 75,
     glowDuration: 75,
     maximumGlowPointSpacing: 10,
-    colors: ["249 146 253", "252 254 255"],
+    colors: ["207 159 255", "144 238 144"],
     sizes: ["1.4rem", "1rem", "0.6rem"],
     animations: ["fall-1", "fall-2", "fall-3"]
 }
